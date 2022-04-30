@@ -1,0 +1,6 @@
+*.db
+test.py
+.idea
+*.iws
+*.iml
+*.ipr

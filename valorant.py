@@ -42,6 +42,8 @@ class Valorant(commands.Cog):
             embedAccountList = []
             idAccountList = []
             print("5")
+            if len(rows) == 0:
+                return await ctx.send("User has no linked valorant account(s)")
             for x in rows:
                 print(x)
                 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}

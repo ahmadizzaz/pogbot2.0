@@ -14,4 +14,4 @@ bot.load_extension('smokegrass')
 # scp .\bot.py pi@raspberrypi:~/Desktop/discordbot
 # scp .\mongod.service izzaz@DESKTOP-DOGCEP1:~/Desktop/
 
-bot.run('OTY4ODkyNjE4NzA2NjUzMjQ1.YmldkQ.cGBZxNpAPUC5yGUaUrTN_9jX8DQ')
+bot.run('token here')
